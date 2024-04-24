@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Frontend</title>
+  <link rel="stylesheet" href="./css/base.css">
+  <link rel="stylesheet" href="./css/navbar.css">
+  <link rel="stylesheet" href="./css/profile.css">
+  <script src="./js/profile.js" type="module"></script>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+</head>
+<body>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
+  
+
+  <!-- content starts here -->
+  <nav class="navbar bg-dark py-3 fixed-top" id="topnav">
+    <div class="container-fluid">
+      <a class="navbar-brand text-white font-weight-bold align-text-middle" href="/">
+        <img src="../images/logo.jpeg" alt="Logo" width="64" height="64" class="d-inline-block align-text-middle ms-1 me-1">
+        <h1 class="d-inline align-middle ms-2">Gameshelf</h1>
+      </a>
+      <input type="search" placeholder="&#x1F50D; search for games or users" class="searchBar" id="searchBar">
+      <a class="navbar-brand text-white font-weight-bold align-text-middle" href="#"  id="profile-link">
+        <h4 class="d-inline align-middle" id="user-handle"></h4>
+        <img class="rounded-circle border" id="profile-pic" src="" alt="Profile Picture" width="56" height="56" class="d-inline-block align-text-middle ms-1 me-1">
+      </a>
+    </div>
+  </nav>
+
+  </header>
+  <main>
+    <section class="content">
+      <div id="user-info">
+        <img id="prof-pic">
+        <h1 id="user-name"></h1>
+      </div>
+  
+      <div id="review-list">
+        <h2>Reviews</h2>
+        <div id="review-feed"></div>
+      </div>
+  
+    </section>
+  </main>
+  
+
+  <footer>
+    <p>
+      © Gameshelf. Brought to you by SuperCoolGameDevelopers.
+    </p>
+  </footer>
+</body>
+</html>

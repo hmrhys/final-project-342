@@ -1,0 +1,28 @@
+#topnav {
+    padding-top: 0.5rem !important;
+    padding-bottom: .5rem !important;
+    background-color: #350050 !important;
+}
+
+#profile-pic {
+    background-color: #fafafa;
+    margin-left: 10px;
+}
+
+#searchBar {
+    width: 40%;
+}
+
+.root {
+    --bs-border-color: #7e00bd;
+}
+
+.border {
+    --bs-border-color: #7e00bd;
+}
+
+@media (max-width: 576px) {
+    #searchBar {
+        width: 20%;
+    }
+}

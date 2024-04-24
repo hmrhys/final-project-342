@@ -1,0 +1,32 @@
+#game-cover {
+    max-width: 15%;
+}
+
+#game-info {
+    display: flex;
+    flex-direction: row;
+}
+
+#game-summary {
+    display: flex;
+    flex-direction: column;
+    margin-left: 2%;
+    align-items: left;
+    justify-content: center;
+}
+
+#review-list {
+    margin-top: 3%;
+}
+
+#post-button {
+    color: #fafafa;
+}
+
+#post-input-container {
+    margin-top: 3%;
+}
+
+.num-input {
+    width: 20%;
+}

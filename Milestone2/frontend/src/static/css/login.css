@@ -1,0 +1,11 @@
+#error {
+    background-color: #debaba;
+    border: 1px solid #db7d7d;
+    padding: 10px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+#error.hidden {
+    visibility: hidden;
+}

@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Frontend</title>
+  <link rel="stylesheet" href="./css/styles.css">
+  <link rel="stylesheet" href="./css/login.css">
+  <script src="./js/login.js" type="module"></script>
+  <title>Gameshelf</title>
+</head>
+<body>
+
+  <header>
+      <a href="./">
+          <button>Home</button>
+      </a>
+  </header>
+
+  <main class="login_container">
+
+    <h2>Log In</h2>
+
+    <div id="error" class="hidden"></div>
+
+    <form action="/login" method="POST" id="loginForm">
+
+      <!-- user name and password fields -->
+      <div class="field"><input type="text" id="username" placeholder="Username or e-Mail" required></div>
+      <div class="field"><input type="password" id="password" placeholder="Password" required></div>
+
+      <!-- log in button -->
+      <div class="submitBtn">
+        <input id="loginBtn" type="button" value="Log In">
+      </div>
+
+    </form>
+
+    <!-- create account if applicable -->
+    <div class="createAccOpt">
+      Don't have an account? Make one
+      <a href="/createaccount">
+          here
+      </a>
+      .
+    </div>
+  </main>
+
+</body>
+</html>

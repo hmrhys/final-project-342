@@ -1,0 +1,62 @@
+{
+    "1": {
+        "id": 1,
+        "name": "Jebediah Dingleberry",
+        "username": "jdingle",
+        "password": "dingleberry"
+    },
+    "2": {
+        "id": 2,
+        "name": "Chris",
+        "username": "chris",
+        "password": "password"
+    },
+    "3": {
+        "id": 3,
+        "name": "Hanna",
+        "username": "hanna",
+        "password": "password"
+    },
+    "4": {
+        "id": 4,
+        "name": "Zee",
+        "username": "zee",
+        "password": "password"
+    },
+    "5": {
+        "id": 5,
+        "name": "Twilight Sparkle",
+        "username": "tlight",
+        "password": "sparkle"
+    },
+    "6": {
+        "id": 6,
+        "name": "Hello Kitty",
+        "username": "hkitty",
+        "password": "kittykitty"
+    },
+    "7": {
+        "id": 7,
+        "name": "Lana fan",
+        "username": "lanadelreyfan",
+        "password": "lanaforever"
+    },
+    "8": {
+        "id": 8,
+        "name": "Sonic",
+        "username": "shedgehog",
+        "password": "gottagofast"
+    },
+    "9": {
+        "id": 9,
+        "name": "Spongebob",
+        "username": "sbspants",
+        "password": "pantsaresquare"
+    },
+    "10": {
+        "id": 10,
+        "name": "Zim",
+        "username": "invader",
+        "password": "invade"
+    }
+}
